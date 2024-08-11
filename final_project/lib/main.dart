@@ -1,5 +1,6 @@
 
 import 'package:final_project/app_screens/welcome_screen.dart';
+import 'package:final_project/app_screens/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const WelcomeScreen(),
+      home: const MyApp(),
     );
   }
 }
